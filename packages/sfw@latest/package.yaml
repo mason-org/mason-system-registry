@@ -1,0 +1,25 @@
+---
+name: sfw@latest
+description: Wraps your package manager, preventing installation of malicious packages.
+homepage: https://socket.dev
+licenses:
+  - LicenseRef-PolyForm-Shield-1.0.0
+languages: []
+categories: []
+
+source:
+  id: pkg:github/SocketDev/sfw-free@v1.9.0
+  asset:
+    - target: darwin_arm64
+      file: sfw-free-macos-arm64
+    - target: darwin_x64
+      file: sfw-free-macos-x86_64
+    - target: linux_arm64
+      file: sfw-free-musl-linux-arm64
+    - target: linux_x64
+      file: sfw-free-musl-linux-x86_64
+    - target: win_x64
+      file: sfw-free-windows-x86_64.exe
+
+bin:
+  sfw: "{{source.asset.file}}"
