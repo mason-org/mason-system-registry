@@ -1,3 +1,4 @@
 {
-    extends: ["github>mason-org/registry-renovate-config"]
+    extends: ["github>mason-org/registry-renovate-config"],
+    automerge: false
 }
