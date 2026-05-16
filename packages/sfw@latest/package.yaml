@@ -20,6 +20,8 @@ source:
       file: sfw-free-musl-linux-x86_64
     - target: win_x64
       file: sfw-free-windows-x86_64.exe
+    - target: win_arm64
+      file: sfw-free-windows-arm64.exe
 
 bin:
   sfw: "{{source.asset.file}}"
