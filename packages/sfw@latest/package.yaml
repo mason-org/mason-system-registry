@@ -14,9 +14,13 @@ source:
       file: sfw-free-macos-arm64
     - target: darwin_x64
       file: sfw-free-macos-x86_64
-    - target: linux_arm64
+    - target: linux_arm64_gnu
+      file: sfw-free-linux-arm64
+    - target: linux_x64_gnu
+      file: sfw-free-linux-x86_64
+    - target: linux_arm64_musl
       file: sfw-free-musl-linux-arm64
-    - target: linux_x64
+    - target: linux_x64_musl
       file: sfw-free-musl-linux-x86_64
     - target: win_x64
       file: sfw-free-windows-x86_64.exe
