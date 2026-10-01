@@ -8,7 +8,7 @@ languages: []
 categories: []
 
 source:
-  id: pkg:github/SocketDev/sfw-free@v1.15.2
+  id: pkg:github/SocketDev/sfw-free@v1.15.4
   asset:
     - target: darwin_arm64
       file: sfw-free-macos-arm64
